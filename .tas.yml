@@ -8,9 +8,10 @@ preRun:
   command:
     - npm install
     - npm run build
+    - npm run lint
     - ls
     - ls ./tests/
-    - sh tests/run_all_tests.sh
+    -  npm run package
 
 postMerge:
   # THIRDLY - You need to set postMerge patterns.
