@@ -8,6 +8,7 @@ preRun:
   command:
     - npm install
     - npm run build
+    - ls
 
 postMerge:
   # THIRDLY - You need to set postMerge patterns.
