@@ -10,6 +10,7 @@ preRun:
     - npm run build
     - ls
     - ls ./tests/
+    - sh tests/run_all_tests.sh
 
 postMerge:
   # THIRDLY - You need to set postMerge patterns.
