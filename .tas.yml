@@ -9,7 +9,7 @@ preRun:
     - npm install
     - npm run build
     - ls
-    - ls ./test/
+    - ls ./tests/
 
 postMerge:
   # THIRDLY - You need to set postMerge patterns.
